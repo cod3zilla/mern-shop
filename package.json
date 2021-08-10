@@ -1,10 +1,7 @@
 {
   "name": "mycms",
   "version": "1.0.0",
-  "description": "ecommerce site devoloped by using Mern stack technology.",
-  "engines": {
-    "node": "14.x"
-  },
+  "description": "ecommerce site devoloped by using Mern stack technology.",  
   "main": "server.js",
   "scripts": {
     "start": "node server/server.js",
