@@ -26,7 +26,7 @@ const Cart = ({match,location,history}) => {
     }
     
     return (
-        <>
+        
           <Row>
               <Col md={8} >
                   <h2>Shopping Cart</h2>
@@ -86,7 +86,7 @@ const Cart = ({match,location,history}) => {
                 disabled={cartItems.length===0}>Proceed Checkout</Button>     
                 </Col>             
             </Row>  
-        </>
+        
     )
 }
 

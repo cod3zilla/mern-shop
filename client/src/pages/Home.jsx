@@ -17,7 +17,7 @@ const Home = () => {
         
     
     return (
-        <>
+        <div>
         {loading ?(<Loading/>)
         :error ? (<Message variant="danger" message={error}/>) 
         : (
@@ -31,7 +31,7 @@ const Home = () => {
         )   
     }
           
-        </>
+        </div>
     )
 }
 

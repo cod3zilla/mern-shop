@@ -12,7 +12,7 @@ const Header = () => {
             dispatch(logout())
     }
     return (
-        <>
+        
            <Navbar bg="dark" expand="lg" variant="dark" collapseOnSelect>
             <Container>
                 <NavLink as={Link} to="/"><Navbar.Brand>E-shop</Navbar.Brand></NavLink>              
@@ -38,7 +38,7 @@ const Header = () => {
                 </Navbar.Collapse>
             </Container>
             </Navbar> 
-        </>
+        
     )
 }
 

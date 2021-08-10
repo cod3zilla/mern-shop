@@ -46,7 +46,7 @@ const handleSubmit= (e)=>{
     dispatch(userUpdateProfile({id:user._id,name, email, password}))
     }
     return (
-        <>
+        <div>
             <Container>
                 <Row>
                     <Col md={3}>
@@ -102,7 +102,7 @@ const handleSubmit= (e)=>{
                     </Col>
                 </Row>
             </Container>
-        </>
+        </div>
     )
 }
 

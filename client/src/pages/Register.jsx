@@ -29,7 +29,7 @@ const handleSubmit= (e)=>{
     }
     
     return (
-        <>
+        <div>
         <FormContainer>
             <h2>Register</h2>
             {error&&<h2>{error}</h2>}
@@ -82,7 +82,7 @@ const handleSubmit= (e)=>{
             </Row>
         </FormContainer>
             
-        </>
+        </div>
     )
 }
 

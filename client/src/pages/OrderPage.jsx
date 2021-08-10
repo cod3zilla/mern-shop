@@ -53,7 +53,7 @@ const handlePaymentSuccess=(PaymentResult)=>{
 }    
     return loading? <Loading/> 
     :error?<Message variant="danger" message={error} />: (
-        <>
+        <div>
           <h2>Order: {order._id}</h2>  
           <Row>
               <Col md={8}>
@@ -146,7 +146,7 @@ const handlePaymentSuccess=(PaymentResult)=>{
                     
                 </Col>
           </Row>
-        </>
+        </div>
     )
 }
 

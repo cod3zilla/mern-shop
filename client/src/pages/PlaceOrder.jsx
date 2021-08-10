@@ -45,7 +45,7 @@ const PlaceOrder = ({history}) => {
     },[history,success])
     
     return (
-        <>
+        <div>
             <Row>
                 <Col md={8}>
                     <ListGroup variant="flush">
@@ -121,7 +121,7 @@ const PlaceOrder = ({history}) => {
                     </Card>
                 </Col>
             </Row>
-        </>
+        </div>
     )
 }
 

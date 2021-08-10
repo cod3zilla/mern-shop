@@ -22,7 +22,7 @@ const handleSubmit= (e)=>{
     }
     console.log(password)
     return (
-        <>
+        <div>
         <FormContainer>
             <h2>Sign In</h2>
             {error&&<h2>{error}</h2>}
@@ -57,7 +57,7 @@ const handleSubmit= (e)=>{
             </Row>
         </FormContainer>
             
-        </>
+        </div>
     )
 }
 

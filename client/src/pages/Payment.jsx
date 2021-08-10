@@ -19,7 +19,7 @@ const Payment = ({history}) => {
     history.push('/checkout')
     }
     return (
-        <>
+        <div>
            
              
             <h1>Payment Method</h1>
@@ -43,7 +43,7 @@ const Payment = ({history}) => {
                 
             </Form>   
                          
-        </>
+        </div>
     )
 }
 
