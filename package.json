@@ -13,7 +13,7 @@
     "dev": "concurrently \"yarn run server\" \"yarn run client\"",
     "data:import": "node server/seeder.js",
     "data:destroy": "node server/seeder.js -destroy",
-    "heroku-postbuild": "install --only=dev yarn install --prefix client && yarn run build --prefix client"
+    "heroku-postbuild": "cd client && yarn install && yarn run build"
   },
   "keywords": [],
   "author": "",
