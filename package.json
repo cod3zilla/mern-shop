@@ -14,7 +14,7 @@
     "dev": "concurrently \"yarn run server\" \"yarn run client\"",
     "data:import": "node server/seeder.js",
     "data:destroy": "node server/seeder.js -destroy",
-    "heroku-postbuild": "cd client && yarn install && yarn build"
+    "heroku-postbuild": "cd client && yarn && yarn build"
   },
   "keywords": [],
   "author": "",
