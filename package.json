@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "ecommerce site devoloped by using Mern stack technology.",
    "engines" : { 
-     "node" : ">=14.16.1" 
+     "node" : "14.16.1",
+     "yarn":"1.22.11" 
      } ,
   "main": "server.js",
   "scripts": {
