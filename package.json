@@ -1,7 +1,10 @@
 {
   "name": "mycms",
   "version": "1.0.0",
-  "description": "ecommerce site devoloped by using Mern stack technology.",  
+  "description": "ecommerce site devoloped by using Mern stack technology.",
+   "engines" : { 
+     "node" : ">=14.16.1" 
+     } ,
   "main": "server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -24,6 +27,7 @@
   },
   "devDependencies": {
     "concurrently": "^6.2.1",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
   }
 }
